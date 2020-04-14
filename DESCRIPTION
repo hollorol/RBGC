@@ -1,0 +1,40 @@
+Package: RBGC
+Title: An R package for BiomeBGC-MuSo ecosystem modelling
+Version: 0.1.0
+Authors@R: person("Roland", "Hollós", , "hollorol@rolandhollos.xyz", role = c("aut", "cre"))
+Description: RBGC is an R package which supports the easy but powerful application of the Biome-BGC biogeochemical model family in R environment. It also provides some additional tools for the model such as Biome-BGCMuSo optimized Monte-Carlo simulation and global sensitivity analysis. The package is based on the previous RBBGCMuso package. Compared to that it is simplier, needs no compillation, have less useless feature. 
+Depends: R (>= 3.3.2)
+License: GPL-3
+LazyData: true
+NeedsCompilation: no
+Packaged: Tue 14 Apr 2020 07:27:25 AM CEST
+ENCODING: UTF-8
+Imports:
+	grDevices,
+    limSolve,
+	stats,
+	utils,
+	graphics,
+	magrittr,
+	dplyr,
+	ggplot2,
+	rmarkdown,
+	tibble,
+	tidyr,
+	tcltk,
+	digest,
+    jsonlite,
+    data.table,
+    gridExtra,
+    lubridate,
+    ecmwfr,
+    openxlsx,
+    ncdf4,
+    future,
+    promises,
+    tcltk
+RoxygenNote: 7.0.0
+Suggests: knitr,
+    rmarkdown,
+VignetteBuilder: knitr
+ByteCompile: true
