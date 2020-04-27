@@ -8,7 +8,6 @@ License: GPL-3
 LazyData: true
 NeedsCompilation: no
 Packaged: Tue 14 Apr 2020 07:27:25 AM CEST
-ENCODING: UTF-8
 Imports:
 	grDevices,
     limSolve,
@@ -33,8 +32,11 @@ Imports:
     future,
     promises,
     tcltk
-RoxygenNote: 7.0.0
-Suggests: knitr,
+Encoding: UTF-8
+RoxygenNote: 7.1.0
+Suggests: 
+    knitr,
     rmarkdown,
+    testthat
 VignetteBuilder: knitr
 ByteCompile: true
